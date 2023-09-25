@@ -70,3 +70,38 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
+
+/* Responsive Design Adjustments */
+
+/* Tablets and smaller devices (600px to 900px) */
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+}
+
+/* Mobile devices (below 600px) */
+@media only screen and (max-width: 599px) {
+    nav ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    section {
+        padding: 20px 10px;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+        /* Adjust the font size for smaller screens */
+    }
+}
