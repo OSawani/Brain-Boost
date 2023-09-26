@@ -71,6 +71,11 @@ footer {
     text-align: center;
 }
 
+#quote {
+    background-image: url('../images/brain-all.png');
+    background-position: center;
+}
+
 /* Responsive Design Adjustments */
 
 /* Tablets and smaller devices (600px to 900px) */
