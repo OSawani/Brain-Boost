@@ -24,6 +24,40 @@ header h1 {
     /* Heavier weight for the main title for emphasis */
 }
 
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: gray;
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+}
+
+#menuToggle {
+    display: none;
+}
+
 nav ul {
     padding: 0;
     list-style-type: none;
