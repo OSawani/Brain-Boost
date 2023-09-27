@@ -86,40 +86,27 @@
       </div>
     </section>
 
-    <section id="testimonials">
-        <h2>Testimonials/Real Life Aspirations/educational / informative video</h2>
+    <section>
         <div class="carousel-container">
-            <div class="carousel-slide">
-                <iframe src="https://www.youtube.com/embed/PIOTOa-H4wA?si=wRfEZdcILJckJjUC&amp;start=82" frameborder="0"
-                    allowfullscreen></iframe>
-                <p>Quote related to second video.</p>
+            <!-- Radio buttons for video selection -->
+            <input type="radio" name="videos" id="video1" checked>
+            <input type="radio" name="videos" id="video2">
+            <input type="radio" name="videos" id="video3">
+        
+                
+            <!-- The videos -->    
+            <div class="video-slider">
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/PIOTOa-H4wA?si=wRfEZdcILJckJjUC&amp;start=82" frameborder="0"></iframe></div>
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/BHY0FxzoKZE?si=EPfv5H_OEMQZxwWH" frameborder="0"></iframe></div>
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/czW-xBvDtHY?si=adpYkOZgHRpwIKu0" frameborder="0"></iframe></div>
             </div>
-            <div class="carousel-slide">
-                <iframe src="https://www.youtube.com/embed/PIOTOa-H4wA?si=wRfEZdcILJckJjUC&amp;start=82" frameborder="0"
-                    allowfullscreen></iframe>
-                <p>Quote related to second video.</p>
+        
+            <!-- Video indicators -->
+            <div class="video-indicators">
+                <label for="video1"></label>
+                <label for="video2"></label>
+                <label for="video3"></label>
             </div>
-            <div class="carousel-slide">
-                <iframe src="https://www.youtube.com/embed/LNHBMFCzznE?si=8uRCxVqUKWULXIi6&amp;start=10" frameborder="0"
-                    allowfullscreen></iframe>
-                <p>Quote related to third video.</p>
-            </div>
-            <div class="carousel-slide">
-                <iframe src="<i width=" 560" height="315"
-                    src="https://www.youtube.com/embed/BHY0FxzoKZE?si=EPfv5H_OEMQZxwWH" frameborder="0"
-                    allowfullscreen></iframe>
-                <p>Quote related to fourth video.</p>
-            </div>
-            <div class="carousel-slide">
-                <iframe src="< width=" 560" height="315" src="https://www.youtube.com/embed/czW-xBvDtHY?si=adpYkOZgHRpwIKu0"
-                    frameborder="0" allowfullscreen></iframe>
-                <p>Quote related to fifth video.</p>
-            </div>
-            <!-- Add more videos as needed -->
-        </div>
-        <div class="carousel-controls">
-            <button id="prevBtn">←</button>
-            <button id="nextBtn">→</button>
         </div>
     </section>
 
