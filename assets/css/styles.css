@@ -9,19 +9,35 @@ body {
     /* Soft neutral background */
 }
 
-header {
-    background-image: url('assets/images/hero-image-3.png');
-    padding: 20px 20px 0px 20px;
-    text-align: center;
-    border-bottom: 3px solid #4CAF50;
-    /* Soft green accent color for contrast */
+section {
+    padding: 0px 20px;
 }
 
-header h1 {
-    margin: 0;
-    color: #333;
-    font-weight: 600;
-    /* Heavier weight for the main title for emphasis */
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.brand img {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
 }
 
 .menu {
@@ -58,89 +74,29 @@ header h1 {
     display: none;
 }
 
-nav ul {
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #333;
-    padding: 10px 20px;
-    border-radius: 30px;
-    transition: background-color 0.3s ease;
-    font-weight: 500;
-    /* Medium weight for better visibility on navigation links */
-}
-
-nav a:focus,
-nav a:hover {
-    background-color: #e7f7ed;
-    /* A lighter shade of the green accent color */
-    outline: none;
-}
-
-section {
-    padding: 40px 20px;
-    background-color: #fff;
-    margin-bottom: 20px;
-}
-
-section h2 {
-    border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    font-weight: 500;
-    /* Medium weight for section titles */
-}
-
-footer {
-    background-color: #4CAF50;
-    /* Soft green accent color */
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-#quote {
-    background-image: url('../images/brain-all.png');
-    background-position: center;
-}
-
-/* Responsive Design Adjustments */
-
-/* Tablets and smaller devices (600px to 900px) */
-@media only screen and (max-width: 900px) and (min-width: 600px) {
-    nav ul {
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background-color: white;
         flex-direction: column;
-        gap: 10px;
+        gap: 0;
     }
 
-    section {
-        padding: 30px 15px;
-    }
-}
-
-/* Mobile devices (below 600px) */
-@media only screen and (max-width: 599px) {
-    nav ul {
-        flex-direction: column;
-        gap: 8px;
+    .menu li {
+        width: 100%;
+        text-align: center;
     }
 
-    header {
-        padding: 15px;
+    .hamburger-menu {
+        display: flex;
     }
 
-    section {
-        padding: 20px 10px;
-    }
-
-    section h2 {
-        font-size: 1.5rem;
-        /* Adjust the font size for smaller screens */
+    #menuToggle:checked+.hamburger-menu+.menu {
+        display: flex;
     }
 }
