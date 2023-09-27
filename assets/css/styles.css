@@ -1,6 +1,12 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    /* Lighter weight for regular text for readability */
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    /* Soft neutral background */
 }
 
 section {
@@ -93,4 +99,12 @@ section {
     #menuToggle:checked+.hamburger-menu+.menu {
         display: flex;
     }
+}
+
+footer {
+    background-color: #4CAF50;
+    /* Soft green accent color */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
