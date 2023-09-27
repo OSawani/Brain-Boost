@@ -101,10 +101,35 @@ section {
     }
 }
 
+/* Footer Styles */
 footer {
-    background-color: #4CAF50;
-    /* Soft green accent color */
-    color: #fff;
+    background-color: #282c35;
+    /* Dark background color for footer */
     padding: 20px 0;
+    color: white;
     text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer nav a {
+    color: #a0a5aa;
+    /* Light gray for links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer nav a:hover {
+    color: white;
 }
