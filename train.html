@@ -4,11 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="./assets/css/styles.css"
-      type="text/css"
-    />
+    <link rel="stylesheet" href="./assets/css/styles.css" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
       rel="stylesheet"
@@ -16,62 +12,44 @@
     <title>BB | Brain Fitness</title>
   </head>
   <body>
-
     <header>
-        <nav class="navbar">
-            <div class="brand">
-                <a href="index.html">
-                    <img src="./assets/images/logo-1.png" alt="Logo" />
-                </a>
-                <span>Brain Boost</span>
-            </div>
-            <input type="checkbox" id="menuToggle" />
-            <label for="menuToggle" class="hamburger-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="eat.html">Brain Food</a></li>
-                <li><a href="train.html">Brain Fitness</a></li>
-                <li><a href="learn.html">Brain Building</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    
-        <div class="hero">
-            <img src="./assets/images/optimised-hero-image-1.png" alt="Hero Image" />
-            <!-- Quote Overlay -->
-            <div class="quote">
-                Unlock your brain's full potential with Brain Boost.
-            </div>
+      <nav class="navbar">
+        <div class="brand">
+          <a href="index.html">
+            <img src="./assets/images/logo-1.png" alt="Logo" />
+          </a>
+          <span>Brain Boost</span>
         </div>
+        <input type="checkbox" id="menuToggle" />
+        <label for="menuToggle" class="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="eat.html">Brain Food</a></li>
+          <li><a href="train.html">Brain Fitness</a></li>
+          <li><a href="learn.html">Brain Building</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero">
+        <img
+          src="./assets/images/optimised-hero-image-1.png"
+          alt="Hero Image"
+        />
+        <!-- Quote Overlay -->
+        <div class="quote">
+          Unlock your brain's full potential with Brain Boost.
+        </div>
+      </div>
     </header>
 
     <section>
       <div id="breathe">
-        <h2>Breathing</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
-          voluptatem totam nemo sint ratione assumenda, repellat facilis dolorem
-          ea rem odio ab explicabo veniam fugit architecto enim necessitatibus,
-          deleniti doloribus.
-        </p>
-      </div>
-
-      <div id="move">
-        <h2>Moving</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
-          voluptatem totam nemo sint ratione assumenda, repellat facilis dolorem
-          ea rem odio ab explicabo veniam fugit architecto enim necessitatibus,
-          deleniti doloribus.
-        </p>
-      </div>
-
-      <div id="sleep">
-        <h2>Recovering/Sleeping</h2>
+        <h2>Breathing, Moving, Sleeping</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
           voluptatem totam nemo sint ratione assumenda, repellat facilis dolorem
@@ -81,18 +59,77 @@
       </div>
     </section>
 
+    <!-- Fitness Section - FAQ Style-->
+    <div class="faq-container">
+      <input type="checkbox" id="faq1" class="faq-checkbox" />
+      <div class="faq-item">
+        <label for="faq1" class="faq-header">
+          <h2>How can I improve my memory?</h2>
+          <div class="toggle-icon"></div>
+        </label>
+        <div class="faq-content">
+          <p>
+            One way to improve memory is to engage in brain exercises such as
+            puzzles and memory games.
+          </p>
+        </div>
+      </div>
+
+      <input type="checkbox" id="faq2" class="faq-checkbox" />
+      <div class="faq-item">
+        <label for="faq2" class="faq-header">
+          <h2>What foods boost brain health?</h2>
+          <div class="toggle-icon"></div>
+        </label>
+        <div class="faq-content">
+          <p>
+            Foods like blueberries, salmon, and nuts are known to enhance brain
+            function and memory.
+          </p>
+        </div>
+      </div>
+
+      <input type="checkbox" id="faq2" class="faq-checkbox" />
+      <div class="faq-item">
+        <label for="faq2" class="faq-header">
+          <h2>What foods boost brain health?</h2>
+          <div class="toggle-icon"></div>
+        </label>
+        <div class="faq-content">
+          <p>
+            Foods like blueberries, salmon, and nuts are known to enhance brain
+            function and memory.
+          </p>
+        </div>
+      </div>
+
+      <input type="checkbox" id="faq2" class="faq-checkbox" />
+      <div class="faq-item">
+        <label for="faq2" class="faq-header">
+          <h2>What foods boost brain health?</h2>
+          <div class="toggle-icon"></div>
+        </label>
+        <div class="faq-content">
+          <p>
+            Foods like blueberries, salmon, and nuts are known to enhance brain
+            function and memory.
+          </p>
+        </div>
+      </div>
+    </div>
+
     <!-- Footer -->
     <footer>
-        <p>© 2023 Brain Boost. All rights reserved.</p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Inspiration</a></li>
-                <li><a href="#">Food Hacks</a></li>
-                <li><a href="#">Fitness Hacks</a></li>
-                <li><a href="#">Learning Hacks</a></li>
-            </ul>
-        </nav>
+      <p>© 2023 Brain Boost. All rights reserved.</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="eat.html">Food Hacks</a></li>
+          <li><a href="train.html">Fitness Hacks</a></li>
+          <li><a href="learn.html">Learning Hacks</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>

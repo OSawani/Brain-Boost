@@ -5,8 +5,9 @@ body {
     font-weight: 300;
     /* Lighter weight for regular text for readability */
     line-height: 1.6;
-    background-color: #d6d6cc;
-    /* Soft neutral background */
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(253, 253, 253, 1) 31%, rgba(203, 203, 193, 1) 100%);
+    /* Soft linear gradient for a neutral background */
 }
 
 h2,
@@ -216,6 +217,7 @@ div.video-box p {
 .contact-container {
     display: flex;
     flex-wrap: wrap;
+    background-color: #dad4c8;
 }
 
 .image-section,
@@ -279,6 +281,65 @@ button {
     width: 100%;
     height: 400px;
 }
+
+
+/*Eat Hacks - FAQ Style*/
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq-checkbox {
+    display: none;
+}
+
+.faq-item {
+    background-color: rgba(203, 203, 193, 1);
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.faq-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.faq-header h2 {
+    margin: 0;
+    color: #00c8c8;
+}
+
+.toggle-icon::before {
+    content: '+';
+    font-size: 24px;
+    color: #00c8c8;
+    transition: transform 0.3s ease;
+}
+
+.faq-checkbox:checked+.faq-item .toggle-icon::before {
+    content: '-';
+    color: #00c8c8;
+    /* Ensure the color is blue when expanded */
+}
+
+.faq-content {
+    display: none;
+    padding: 10px;
+    background-color: rgba(253, 253, 253, 1);
+    border-radius: 0 0 5px 5px;
+    color: #333;
+}
+
+.faq-checkbox:checked+.faq-item .faq-content {
+    display: block;
+}
+
+
 
 /* Footer Styles */
 footer {
