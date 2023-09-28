@@ -176,6 +176,66 @@ div.video-box p {
 }
 
 
+
+/* Contact Form Styling*/
+.contact-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-left {
+    width: 50%;
+}
+
+.contact-left img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-right {
+    width: 50%;
+    padding: 20px;
+}
+
+.contact-right h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.map-container {
+    width: 100%;
+    height: 400px;
+}
+
 /* Footer Styles */
 footer {
     background-color: #282c35;
