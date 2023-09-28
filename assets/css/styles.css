@@ -13,9 +13,45 @@ section {
     padding: 0px 20px;
 }
 
+.hero {
+    position: relative;
+    max-width: 100%;
+}
+
 .hero img {
     width: 100%;
     height: auto;
+    object-fit: cover;
+}
+
+.quote {
+    position: absolute;
+    top: 50%;
+    /* Center vertically */
+    left: 5%;
+    /* Horizontally slightly to the left*/
+    transform: translateY(-50%);
+    /* Center the div perfectly */
+
+    /* Style for the quote text */
+    font-size: 1.3em;
+    color: #FFF;
+    /* Bright text color for contrast */
+    background: rgba(0, 0, 0, 0.7);
+    /* Dark background with a bit of transparency for visibility */
+    padding: 10px 10px;
+    border-radius: 10px;
+    max-width: auto;
+    /* Ensuring the quote doesn't take up full width */
+    text-align: left;
+}
+
+/* For responsiveness, font size can be adjusted for smaller screens */
+@media (max-width: 768px) {
+    .quote {
+        font-size: 0.7em;
+        padding: 4px 4px;
+    }
 }
 
 .navbar {
@@ -84,7 +120,7 @@ section {
         left: 0;
         background-color: white;
         flex-direction: column;
-        gap: 0;
+        gap: 5px;
     }
 
     .menu li {
