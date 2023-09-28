@@ -35,14 +35,16 @@
       </nav>
 
       <div class="hero">
-        <img src="./assets/images/optimised-hero-image-1.png" alt="Hero Image" />
+        <img
+          src="./assets/images/optimised-hero-image-1.png"
+          alt="Hero Image"
+        />
         <!-- Quote Overlay -->
         <div class="quote">
           Harness the brain's power, and the universe becomes your canvas.
         </div>
       </div>
     </header>
-
 
     <section id="mission-statement">
       <div>
@@ -78,40 +80,41 @@
       </div>
     </section>
 
-    <section>
-      <div class="carousel-container">
-        <!-- Radio buttons for video selection -->
-        <input type="radio" name="videos" id="video1" checked />
-        <input type="radio" name="videos" id="video2" />
-        <input type="radio" name="videos" id="video3" />
-
-        <!-- The videos -->
-        <div class="video-slider">
-          <div class="video-wrapper">
-            <iframe
-              src="https://www.youtube.com/embed/B_tjKYvEziI?si=4rpx-Ig2I64D-fba&amp;start=13"
-              frameborder="0"
-            ></iframe>
-          </div>
-          <div class="video-wrapper">
-            <iframe
-              src="https://www.youtube.com/embed/PIOTOa-H4wA?si=wRfEZdcILJckJjUC&amp;start=82"
-              frameborder="0"
-            ></iframe>
-          </div>
-          <div class="video-wrapper">
-            <iframe
-              src="https://www.youtube.com/embed/BHY0FxzoKZE?si=EPfv5H_OEMQZxwWH"
-              frameborder="0"
-            ></iframe>
-          </div>
+    <section class="video-section">
+      <h2>Videos</h2>
+      <div class="video-container">
+        <div class="video-box">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/B_tjKYvEziI?si=K-OC5_yV8oqQjSM2&amp;start=12"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <p>Grow Brain Cells!</p>
+        </div>
+        <!-- Video 2 -->
+        <div class="video-box">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/PIOTOa-H4wA?si=qKSTwT3NxpCfft08&amp;start=81"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <p>Fix Your Broken Brain!</p>
         </div>
 
-        <!-- Video indicators -->
-        <div class="video-indicators">
-          <label for="video1"></label>
-          <label for="video2"></label>
-          <label for="video3"></label>
+        <!-- Video 3 -->
+        <div class="video-box">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/BHY0FxzoKZE?si=xV1m8IbhRulb2CWv&amp;start=12"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <p>Brain Therapy 101</p>
         </div>
       </div>
     </section>

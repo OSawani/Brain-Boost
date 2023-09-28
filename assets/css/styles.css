@@ -137,91 +137,41 @@ section {
     }
 }
 
-/* Carousel for Videos */
 
-.carousel-container {
-    position: relative;
-    width: 100vw;
-    height: 56.25vw;
-    /* 56.25 is the aspect ratio for 16:9 videos */
-    overflow: hidden;
-}
 
-.video-slider {
+/* Container for the video section */
+.video-container {
     display: flex;
-    width: 300vw;
-    /* 3 videos * 100vw each */
-    transition: all 0.5s;
-    /* Smooth transition effect */
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
-.video-wrapper {
-    flex: 0 0 100vw;
-    width: 100vw;
-    height: 56.25vw;
+/* Individual video containers */
+.video-box {
+    flex: 0 0 calc(33.33% - 20px);
+    /* 33.33% width with spacing */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-.video-wrapper iframe {
-    width: 100%;
-    height: 100%;
+/* Style for Video Caption */
+div.video-box p {
+    text-align: center;
 }
 
-input[type="radio"] {
-    display: none;
-    /* Hide the radio buttons */
-}
-
-/* Position the videos based on which radio button is checked */
-#video1:checked~.video-slider {
-    transform: translateX(0);
-}
-
-#video2:checked~.video-slider {
-    transform: translateX(-100vw);
-    /* Move to second video */
-}
-
-#video3:checked~.video-slider {
-    transform: translateX(-200vw);
-    /* Move to third video */
-}
-
-.video-indicators {
-    position: absolute;
-    bottom: 2vw;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 1vw;
-}
-
-.video-indicators label {
-    width: 1.5vw;
-    height: 1.5vw;
-    background-color: #ddd;
-    border-radius: 50%;
-    display: block;
-    cursor: pointer;
-}
-
-/* Highlight the current video indicator */
-#video1:checked~.video-indicators label:nth-child(1),
-#video2:checked~.video-indicators label:nth-child(2),
-#video3:checked~.video-indicators label:nth-child(3) {
-    background-color: #555;
-}
-
-/* Mobile optimizations */
-@media (max-width: 768px) {
-    .video-indicators {
-        bottom: 5vw;
-        /* More spacing at the bottom for mobile touch targets */
+/* Responsive layout for mobile */
+@media (max-width: 950px) {
+    .video-container {
+        flex-direction: column;
     }
 
-    .video-indicators label {
-        width: 3vw;
-        height: 3vw;
-        /* Bigger touch targets for mobile */
+    .video-box {
+        flex: 0 0 100%;
+        /* Full width on mobile */
     }
 }
 
