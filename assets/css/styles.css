@@ -194,7 +194,7 @@ div.brand span {
 div.video-box p {
     text-align: center;
     padding: 5px;
-    border: 4px outset #00c8c8;
+    border: 4px inset #00c8c8;
     border-radius: 10px;
 }
 
