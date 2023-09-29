@@ -164,6 +164,69 @@ div.brand span {
     background-position: center;
 }
 
+
+/* Container for the Brain Hack section */
+.brain-lifehacks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.lifehack-card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 2em;
+    width: calc(33.33% - 2em);
+    /* This allows for roughly equal spacing */
+    margin: 1em;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.lifehack-card:hover {
+    transform: scale(1.05);
+}
+
+.lifehack-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.lifehack-description {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.cta-button {
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .brain-lifehacks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lifehack-card {
+        width: 80%;
+        /* Adjust this value if you want a different width for mobile */
+    }
+}
+
+
 /* Container for the video section */
 
 .video-section h2 {
