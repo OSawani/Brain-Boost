@@ -47,7 +47,7 @@ div.brand span {
     /* Bright text color for contrast */
     background: rgba(0, 0, 0, 0.7);
     /* Dark background with a bit of transparency for visibility */
-    padding: 10px 10px;
+    padding: 0px 10px 0px 10px;
     border-radius: 10px;
     max-width: auto;
     /* Ensuring the quote doesn't take up full width */
@@ -227,6 +227,7 @@ div.brand span {
         width: 100%;
         /* Allow them to take the full width of their parent */
     }
+
 }
 
 
