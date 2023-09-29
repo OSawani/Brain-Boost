@@ -162,6 +162,34 @@ div.brand span {
     flex-direction: row;
     align-items: center;
     margin: 2em 0;
+    padding: 0 20px;
+}
+
+.icon-title-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+
+.icon-wrapper,
+.title-wrapper {
+    display: inline-flex;
+    /* This ensures that they don't take up more space than their content */
+    justify-content: center;
+    /* Center their content */
+}
+
+.statement-section h2 {
+    margin: 0;
+    /* The h2 will naturally occupy the remaining space beside the icon within the icon-title-wrapper */
+}
+
+.statement-section p {
+    flex: 2;
+    /* Takes up 2/3 of the space */
+    margin: 10px;
 }
 
 .statement-icon {
@@ -186,7 +214,22 @@ div.brand span {
         margin-right: 0;
         margin-bottom: 1em;
     }
+
+    .icon-title-wrapper {
+        flex-direction: column;
+        /* Stack children vertically */
+        align-items: center;
+        /* Center children horizontally */
+    }
+
+    .icon-wrapper,
+    .title-wrapper {
+        width: 100%;
+        /* Allow them to take the full width of their parent */
+    }
 }
+
+
 
 
 /* Container for the Brain Hack section */
