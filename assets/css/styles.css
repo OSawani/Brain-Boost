@@ -6,8 +6,6 @@ body {
     /* Lighter weight for regular text for readability */
     line-height: 1.6;
     background: rgb(255, 255, 255);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(253, 253, 253, 1) 31%, rgba(203, 203, 193, 1) 100%);
-    /* Soft linear gradient for a neutral background */
 }
 
 h2,
@@ -350,6 +348,13 @@ div.video-box p {
 
 
 /* Contact Form Styling*/
+.contact-info {
+    background-color: #fff;
+    color: #222;
+    padding: 30px 0 50px 0;
+    text-align: center;
+}
+
 .contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -393,15 +398,11 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
-    background-color: #333;
+    background-color: #282c35;
     color: #fff;
     cursor: pointer;
 }
 
-.map {
-    width: 100%;
-    margin-top: 20px;
-}
 
 /* For mobile */
 @media (max-width: 768px) {
@@ -413,10 +414,6 @@ button {
     }
 }
 
-.map-container {
-    width: 100%;
-    height: 400px;
-}
 
 
 /*Eat Hacks - FAQ Style*/
@@ -447,7 +444,7 @@ button {
 
 .faq-header h2 {
     margin: 0;
-    color: #00c8c8;
+    color: black;
 }
 
 .toggle-icon::before {
@@ -480,15 +477,29 @@ button {
 /* Footer Styles */
 footer {
     background-color: #282c35;
-    /* Dark background color for footer */
     padding: 20px 0;
     color: white;
     text-align: center;
 }
 
 footer p {
-    margin: 0;
+    margin: 10px 0 0;
     font-size: 0.9em;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .social-icons a {
+    color: #a0a5aa;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: white;
 }
 
 footer nav ul {
@@ -501,7 +512,6 @@ footer nav ul {
 
 footer nav a {
     color: #a0a5aa;
-    /* Light gray for links */
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -510,16 +520,10 @@ footer nav a:hover {
     color: white;
 }
 
-/* Responsive Footer*/
 footer nav li {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-footer nav i {
-    font-size: 1.2em;
-    margin-right: 10px;
 }
 
 /* Media Query for Mobile */
