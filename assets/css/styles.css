@@ -156,12 +156,36 @@ div.brand span {
     }
 }
 
-/* Container for Mission Statement Section */
-.mission-statement {
-    color: #222;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
+/* Container for Statement Sections */
+.statement-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.statement-icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 1em;
+}
+
+.statement-section h2 {
+    flex-grow: 1;
+    /* This ensures the h2 takes up the remaining space beside the icon */
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .statement-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .statement-icon {
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
 }
 
 
@@ -172,6 +196,10 @@ div.brand span {
     justify-content: center;
     flex-wrap: nowrap;
     align-items: center;
+}
+
+.center-h2 {
+    text-align: center;
 }
 
 .lifehack-card {
