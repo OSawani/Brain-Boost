@@ -16,15 +16,6 @@ p {
     margin: 0;
 }
 
-.custom-h1 {
-    font-size: inherit;
-    /* Inherit font size from parent */
-    color: inherit;
-    /* Inherit text color from parent */
-    font-weight: inherit;
-    /* Inherit font weight from parent */
-}
-
 div.brand span {
     color: #00c8c8;
     font-weight: 800;
@@ -51,7 +42,7 @@ div.brand span {
     /* Center the div perfectly */
 
     /* Style for the quote text */
-    font-size: 1.3em;
+    font-size: 1.7em;
     color: #FFF;
     /* Bright text color for contrast */
     background: rgba(0, 0, 0, 0.7);
@@ -63,10 +54,19 @@ div.brand span {
     text-align: left;
 }
 
+.custom-h1 {
+    font-size: inherit;
+    /* Inherit font size from parent */
+    color: inherit;
+    /* Inherit text color from parent */
+    font-weight: inherit;
+    /* Inherit font weight from parent */
+}
+
 /* For responsiveness, font size can be adjusted for smaller screens */
 @media (max-width: 768px) {
     .quote {
-        font-size: 0.7em;
+        font-size: 0.8em;
         padding: 4px 4px;
     }
 }
