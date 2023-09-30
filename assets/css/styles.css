@@ -224,6 +224,9 @@ div.brand span {
 .cta-button:hover {
     background-color: #fcd770;
 }
+.no-decoration {
+    text-decoration: none;
+}
 
 
 /* Styles for Container - video section */
