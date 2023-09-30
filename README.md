@@ -1,7 +1,7 @@
 # Brain Boost - Lifehacks for Optimizing Brain Health
 ![Brain Boost Logo](./assets/images/logo-1.png)
 
-Recent advancements in neuroscience illuminate the brain's incredible capacity for change, growth, and resilience. Discover how you can tap into these insights and optimize your cognitive prowess.
+# Recent advancements in neuroscience illuminate the brain's incredible capacity for change, growth, and resilience. Discover how you can tap into these insights and optimize your cognitive prowess.
 
 ## Code Institute - First Milestone Project: User Centric Frontend Development
 
@@ -33,7 +33,7 @@ Recent advancements in neuroscience illuminate the brain's incredible capacity f
   - [Acknowledgements](#acknowledgements)
 
 ## Inspiration
-Reclaiming Focus in the Digital Age: I aspire to assist young adults and professionals—those most vulnerable to the ever-present digital distractions—in building a robust, resilient mind. In this epoch where attention is the prime currency, having a fortified mind is not merely an advantage; it's a necessity to stay healthy, maintain focus, and pursue a life of fulfillment.
+Reclaiming Focus in the Digital Age: I aspire to assist young adults and professionals—those most vulnerable to the ever-present digital distractions—in building a robust, resilient mind. In this epoch where attention is the prime currency, having a fortified mind is not merely an advantage; it's a necessity to stay healthy, maintain focus, and pursue a life of fulfillment.  
 **Inspirational Figures:**
 - All neuroscientists working on brain research.
 - Jim Kwik
@@ -45,7 +45,10 @@ By comprehending the depth of this issue, we realize the pressing need to proact
 
 
 ## Demo
-![Website look on mobile & desktop](/Brain-Boost/assets/images/demo/Laptop2.png /Brain-Boost/assets/images/demo/Laptop.png /Brain-Boost/assets/images/demo/Mobile.png /Brain-Boost/assets/images/demo/Mobile2.png)
+![Website look on mobile & desktop] <img src="./assets/images/demo/laptop1.png" alt="Laptop Screenshot 1" width="300"/>
+<img src="./assets/images/demo/laptop2.png" alt="Laptop Screenshot 2" width="300"/>
+<img src="./assets/images/demo/Mobile1.png" alt="Laptop Screenshot 1" width="300"/>
+<img src="./assets/images/demo/Mobile2.png" alt="Laptop Screenshot 1" width="300"/>
 
 ### The website is hosted using github pages and can be found [here](https://osawani.github.io/Brain-Boost/)
 
