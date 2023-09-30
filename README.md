@@ -1,10 +1,14 @@
+# Brain Boost - Lifehacks for Optimizing Brain Health
 ![Brain Boost Logo](./assets/images/logo-1.png)
+Recent advancements in neuroscience illuminate the brain's incredible capacity for change, growth, and resilience. Discover how you can tap into these insights and optimize your cognitive prowess.
 
 ## Code Institute - First Milestone Project: User Centric Frontend Development
 
 
 
 # Table of Contents
+- [Brain Boost - Lifehacks for Optimizing Brain Health](#brain-boost---lifehacks-for-optimizing-brain-health)
+  - [Code Institute - First Milestone Project: User Centric Frontend Development](#code-institute---first-milestone-project-user-centric-frontend-development)
 - [Table of Contents](#table-of-contents)
   - [Inspiration](#inspiration)
   - [Motivation](#motivation)
