@@ -260,6 +260,12 @@ div.video-box p {
     border-radius: 10px;
 }
 
+/* Responsive iframe to avoid using 100% width */
+.responsive-iframe {
+    width: 100%;
+    height: 315px;
+}
+
 
 /* Styles for Contact Form */
 .contact-info {
