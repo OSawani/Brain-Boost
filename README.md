@@ -45,9 +45,9 @@ By comprehending the depth of this issue, we realize the pressing need to proact
 
 
 ## Demo
-![Website look on mobile & desktop] <img src="./assets/images/demo/laptop1.png" alt="Laptop Screenshot 1" width="300"/>
+![Website look on mobile & desktop] <img src="./assets/images/demo/Laptop.png" alt="Laptop Screenshot 1" width="300"/>
 <img src="./assets/images/demo/laptop2.png" alt="Laptop Screenshot 2" width="300"/>
-<img src="./assets/images/demo/Mobile1.png" alt="Laptop Screenshot 1" width="300"/>
+<img src="./assets/images/demo/Mobile.png" alt="Laptop Screenshot 1" width="300"/>
 <img src="./assets/images/demo/Mobile2.png" alt="Laptop Screenshot 1" width="300"/>
 
 ### The website is hosted using github pages and can be found [here](https://osawani.github.io/Brain-Boost/)
