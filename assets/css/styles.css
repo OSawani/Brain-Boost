@@ -1,3 +1,4 @@
+/* General Baseline Styles Website */
 body {
     margin: 0;
     padding: 0;
@@ -14,61 +15,15 @@ p {
     margin: 0;
 }
 
+
+/* Styles for Logo in Text Form */
 div.brand span {
     color: #00c8c8;
     font-weight: 800;
 }
 
-.hero {
-    position: relative;
-    max-width: 100%;
-}
 
-.hero img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.quote {
-    position: absolute;
-    top: 50%;
-    /* Center vertically */
-    left: 5%;
-    /* Horizontally slightly to the left*/
-    transform: translateY(-50%);
-    /* Center the div perfectly */
-
-    /* Style for the quote text */
-    font-size: 1.7em;
-    color: #FFF;
-    /* Bright text color for contrast */
-    background: rgba(0, 0, 0, 0.7);
-    /* Dark background with a bit of transparency for visibility */
-    padding: 0px 10px 0px 10px;
-    border-radius: 10px;
-    max-width: auto;
-    /* Ensuring the quote doesn't take up full width */
-    text-align: left;
-}
-
-.custom-h1 {
-    font-size: inherit;
-    /* Inherit font size from parent */
-    color: inherit;
-    /* Inherit text color from parent */
-    font-weight: inherit;
-    /* Inherit font weight from parent */
-}
-
-/* For responsiveness, font size can be adjusted for smaller screens */
-@media (max-width: 768px) {
-    .quote {
-        font-size: 0.8em;
-        padding: 4px 4px;
-    }
-}
-
+/* Styles for Navigation Bar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -79,7 +34,6 @@ div.brand span {
     top: 0;
     z-index: 1000;
 }
-
 
 .brand img {
     height: 40px;
@@ -126,35 +80,52 @@ div.brand span {
     display: none;
 }
 
-/* Mobile Styles for Navigation Bar*/
-@media screen and (max-width: 768px) {
-    .menu {
-        display: none;
-        width: 100%;
-        position: absolute;
-        /* Make Navigation links stand out from bar*/
-        top: 70px;
-        left: 0;
-        background-color: white;
-        flex-direction: column;
-        gap: 5px;
-    }
 
-    .menu li {
-        width: 100%;
-        text-align: center;
-    }
-
-    .hamburger-menu {
-        display: flex;
-    }
-
-    #menuToggle:checked+.hamburger-menu+.menu {
-        display: flex;
-    }
+/* Styles for hero section */
+.hero {
+    position: relative;
+    max-width: 100%;
 }
 
-/* Container for Statement Sections */
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.quote {
+    position: absolute;
+    top: 50%;
+    /* Center vertically */
+    left: 5%;
+    /* Horizontally slightly to the left*/
+    transform: translateY(-50%);
+    /* Center the div perfectly */
+
+    /* Style for the quote text */
+    font-size: 1.7em;
+    color: #FFF;
+    /* Bright text color for contrast */
+    background: rgba(0, 0, 0, 0.7);
+    /* Dark background with a bit of transparency for visibility */
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+    max-width: auto;
+    /* Ensuring the quote doesn't take up full width */
+    text-align: left;
+}
+
+.custom-h1 {
+    font-size: inherit;
+    /* Inherit font size from parent */
+    color: inherit;
+    /* Inherit text color from parent */
+    font-weight: inherit;
+    /* Inherit font weight from parent */
+}
+
+
+/* Styles for Container - Statement Sections */
 .statement-section {
     display: flex;
     flex-direction: row;
@@ -201,37 +172,8 @@ div.brand span {
     /* This ensures the h2 takes up the remaining space beside the icon */
 }
 
-/* Mobile view */
-@media (max-width: 768px) {
-    .statement-section {
-        flex-direction: column;
-        text-align: center;
-    }
 
-    .statement-icon {
-        margin-right: 0;
-        margin-bottom: 1em;
-    }
-
-    .icon-title-wrapper {
-        flex-direction: column;
-        /* Stack children vertically */
-        align-items: center;
-        /* Center children horizontally */
-    }
-
-    .icon-wrapper,
-    .title-wrapper {
-        width: 100%;
-        /* Allow them to take the full width of their parent */
-    }
-
-}
-
-
-
-
-/* Container for the Brain Hack section */
+/* Styles for Container - Brain Hack section */
 .brain-lifehacks {
     display: flex;
     flex-direction: row;
@@ -284,22 +226,8 @@ div.brand span {
     background-color: #fcd770;
 }
 
-/* Mobile view */
-@media (max-width: 768px) {
-    .brain-lifehacks {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .lifehack-card {
-        width: 80%;
-        /* Adjust this value if you want a different width for mobile */
-    }
-}
-
-
-/* Container for the video section */
-
+/* Styles for Container - video section */
 .video-section h2 {
     text-align: center;
 }
@@ -324,8 +252,7 @@ div.brand span {
     font-weight: 800;
 }
 
-
-/* Style for Video Caption */
+/* Individual Video Caption */
 div.video-box p {
     text-align: center;
     padding: 5px;
@@ -333,21 +260,8 @@ div.video-box p {
     border-radius: 10px;
 }
 
-/* Responsive layout for mobile */
-@media (max-width: 950px) {
-    .video-container {
-        flex-direction: column;
-    }
 
-    .video-box {
-        flex: 0 0 100%;
-        /* Full width on mobile */
-    }
-}
-
-
-
-/* Contact Form Styling*/
+/* Styles for Contact Form */
 .contact-info {
     background-color: #fff;
     color: #222;
@@ -404,19 +318,7 @@ button {
 }
 
 
-/* For mobile */
-@media (max-width: 768px) {
-
-    .image-section,
-    .form-section {
-        width: 100%;
-        /* They will stack and take full width */
-    }
-}
-
-
-
-/*Eat Hacks - FAQ Style*/
+/*Styles for Hacks - FAQ Style*/
 .faq-container {
     max-width: 800px;
     margin: 0 auto;
@@ -473,8 +375,7 @@ button {
 }
 
 
-
-/* Footer Styles */
+/* Styles for Footer */
 footer {
     background-color: #282c35;
     padding: 20px 0;
@@ -502,32 +403,102 @@ footer .social-icons a:hover {
     color: white;
 }
 
-footer nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-footer nav a {
-    color: #a0a5aa;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-footer nav a:hover {
-    color: white;
-}
-
-footer nav li {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
 
 /* Media Query for Mobile */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
+    /* Hero Section Quote */
+    /* For responsiveness, font size can be adjusted for smaller screens */
+    .quote {
+        font-size: 0.8em;
+        padding: 4px 4px;
+    }
+
+
+    /* Mobile Styles for Navigation Bar*/
+    .menu {
+        display: none;
+        width: 100%;
+        position: absolute;
+        /* Make Navigation links stand out from bar*/
+        top: 70px;
+        left: 0;
+        background-color: white;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    #menuToggle:checked+.hamburger-menu+.menu {
+        display: flex;
+    }
+
+
+    /* Mobile Styles for Statement Section container*/
+    .statement-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .statement-icon {
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+
+    .icon-title-wrapper {
+        flex-direction: column;
+        /* Stack children vertically */
+        align-items: center;
+        /* Center children horizontally */
+    }
+
+    .icon-wrapper,
+    .title-wrapper {
+        width: 100%;
+        /* Allow them to take the full width of their parent */
+    }
+
+
+    /* Mobile Styles for Brain Hack section's container */
+    .brain-lifehacks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lifehack-card {
+        width: 80%;
+        /* Adjust this value for a different width for mobile */
+    }
+
+
+    /* Mobile Styles for video section's container */
+    .video-container {
+        flex-direction: column;
+    }
+
+    .video-box {
+        flex: 0 0 100%;
+        /* Full width on mobile */
+    }
+
+
+    /* Mobile Styles for contact form */
+    .image-section,
+    .form-section {
+        width: 100%;
+        /* They will stack and take full width */
+    }
+
+
+    /* Mobile Styles for footer */
     footer nav ul {
         flex-direction: column;
         gap: 10px;
