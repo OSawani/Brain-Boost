@@ -1,6 +1,6 @@
 # Brain Boost - Lifehacks for Optimizing Brain Health
 ![Brain Boost Logo](./assets/images/logo-1.png)
-Recent advancements in neuroscience illuminate the brain's incredible capacity for change, growth, and resilience. Discover how you can tap into these insights and optimize your cognitive prowess.
+!Recent advancements in neuroscience illuminate the brain's incredible capacity for change, growth, and resilience. Discover how you can tap into these insights and optimize your cognitive prowess.
 
 ## Code Institute - First Milestone Project: User Centric Frontend Development
 
@@ -38,10 +38,16 @@ Recent advancements in neuroscience illuminate the brain's incredible capacity f
     - [Acknowledgements](#acknowledgements)
 
 ## Inspiration
-hbrekbekbv
+Reclaiming Focus in the Digital Age: We aspire to assist young adults and professionals—those most vulnerable to the ever-present digital distractions—in building a robust, resilient mind. In this epoch where attention is the prime currency, having a fortified mind is not merely an advantage; it's a necessity to stay healthy, maintain focus, and pursue a life of fulfillment.
+Inspirational Figures:
+- All neuroscientists working on brain research.
+- Jim Kwik
+- David Goggins
 
 ## Motivation
-ejrghekjgvre
+In an era heralded by digital advancements, our brains are constantly barraged by notifications, likes, and endless scrolls. While these tools promise connection and information, they often deliver distraction and disconnection. As platforms compete fiercely for our attention, the underlying toll on our cognitive well-being becomes increasingly apparent. Studies highlight how the attention economy not only hijacks our time but corrodes our neural pathways, affecting our ability to concentrate, empathize, and even find genuine moments of happiness. This evolving challenge is especially pronounced among young adults and professionals who find their potential undermined by the very tools meant to augment their lives.
+By comprehending the depth of this issue, we realize the pressing need to proactively bolster our mental resilience, fostering a mind that's not just surviving in this digital age but thriving with clarity and purpose.
+
 
 ## Demo
 
