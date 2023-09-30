@@ -110,7 +110,6 @@ div.brand span {
     /* Dark background with a bit of transparency for visibility */
     padding: 0px 10px 0px 10px;
     border-radius: 10px;
-    max-width: auto;
     /* Ensuring the quote doesn't take up full width */
     text-align: left;
 }
