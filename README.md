@@ -171,8 +171,11 @@ Functional TBD Features:
         `<link rel="stylesheet" href="/assets/css/style.css">`
   - Adding a '.' to the start of the file path fixed the problem.
         `<link rel="stylesheet" href="./assets/css/style.css">`
+  - HTML validator pointed out that for YT iframes, properties must have an absoulte value. To ensure the videos resize and take full width in their container. I replaced width with an absolute value and introduced a new class for iframe tage to make sure they always fit the space they have available.
+  - CSS Validator pointed out that max-width property cannot have auto as a value so i removed it and to my surprise the quote was still taking up the entire width of the container.
 
 - Various CSS styling bugs related to the Box Model. See Commits with prefixes fix: & style:
+  
   
 - **Unfixed Bugs**
 - I tried to use @import url('google-fonts-url') in my styles.css but the font was not loading so i resorted to using a link tag in each of the page's head section to force load the font. I am aware that this affects performance but i had no time to get to the bottom of this.
