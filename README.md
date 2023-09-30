@@ -133,8 +133,15 @@ Visual Design
 - Responsive design that works on desktop, tablet, and mobile.
 - Clear, concise, and engaging content on the Attention Economy and brain optimization.
 - A user-friendly interface with intuitive navigation.
-- Integration with external resources or expert interviews.
-- Footer: This section includes the social media links 
+- Integration with external resources or expert interviews (informational Videos embedded on landing page)
+- Card Stack with hover effect and cta to each brain hack.
+- Collapsable brain hacks with links to research paper backing hacks.
+- Footer: This section includes the social media links
+
+<img src="./assets/images/demo/feature-card.png" alt="Cards Feature" width="300"/>
+<img src="./assets/images/demo/feature-hacks.png" alt="Brain Hacks Feature" width="300"/>
+<img src="./assets/images/demo/feature-mobile-navigation.png" alt="Mobile Navigation Feature" width="300"/>
+<img src="./assets/images/demo/feature-videos-png.png" alt="Informational Videos Feature" width="300"/>
 
 ### Features To Be Develped
 In the future, i would like to add following UI improvements:
