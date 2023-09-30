@@ -114,7 +114,7 @@ Priority & Navigation:
 
 ### Surface
 Visual Design
-- Colors: Soft neutral background (light gray or off-white) with dark text for easy reading. Accent colors (e.g., soft blue or green) for headings, links, and CTAs.
+- Colors: Soft neutral background (light gray or off-white) with dark text for easy reading. Accent colors (e.g., soft blue or green) for headings, links, and CTAs. Palette: (#00c8c8, #ffffff, #fcd770)
 - Typography: readable font Poppins from google that is very easy on the eyes, custom line height and line weight to match the aesthetic.
 - Images: High-quality images generated from Dreamstudio by stability.ai, people engaged in cognitive tasks, or abstract representations of focus and concentration.
 - Appropriate Content: imagery and design choices align with the serious and educational tone of the content.
