@@ -45,8 +45,9 @@ By comprehending the depth of this issue, we realize the pressing need to proact
 
 
 ## Demo
-![Website look on mobile & desktop] <img src="./assets/images/demo/Laptop.png" alt="Laptop Screenshot 1" width="300"/>
-<img src="./assets/images/demo/laptop2.png" alt="Laptop Screenshot 2" width="300"/>
+[Website look on mobile & desktop]   <br>
+<img src="./assets/images/demo/Laptop.png" alt="Laptop Screenshot 1" width="300"/>
+<img src="./assets/images/demo/Laptop2.png" alt="Laptop Screenshot 2" width="300"/>
 <img src="./assets/images/demo/Mobile.png" alt="Laptop Screenshot 1" width="300"/>
 <img src="./assets/images/demo/Mobile2.png" alt="Laptop Screenshot 1" width="300"/>
 
