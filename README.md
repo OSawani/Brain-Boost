@@ -1,6 +1,8 @@
 # Brain Boost - Lifehacks for Optimizing Brain Health
 ![Brain Boost Logo](./assets/images/logo-1.png)
 
+### The website is hosted using github pages and can be found [here](https://osawani.github.io/Brain-Boost/)
+
 <p>Recent advancements in neuroscience illuminate the brain's incredible capacity for change, growth, and resilience. Discover how you can tap into these insights and optimize your cognitive prowess.</p>
 
 ## Code Institute - First Milestone Project: User Centric Frontend Development
